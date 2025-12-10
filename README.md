@@ -50,3 +50,6 @@
 2. ```git tag -a <version> -m "First release" ``` cretes a tag with label
 3. ```git push --tags``` pushes tags to the remote repoitory
 4. ```git push origin version ``` pushes spesific tag
+
+## push and pull commands:
+1. ```git push ``` 
