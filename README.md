@@ -26,3 +26,9 @@
 4. ```git add <dir>``` adds the change that were made in the specific directory
 5. ```git add -u``` adds only uddate and deletion (no new files)
 6. ```git add -p``` adds interactivly 
+
+## Status commands:
+1. ```git status ``` shows full status of chnages
+2. ```git status -s``` shows symbolic information about changes
+3. ```git staus -sb``` shows status + branch information
+4. ```git status --ignored``` shows status of ignore files
