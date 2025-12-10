@@ -20,4 +20,9 @@
 2. ```git clone http://repository/username/repo.git``` is used to clone the repository.
 
 ## Add commands:
-1. ```git add . ``` adds everything 
+1. ```git add . ``` adds all changes in current directory
+2. ```git add * ``` adds all files except hidden ones
+3. ```git add <filename>``` adds specific file changes
+4. ```git add <dir>``` adds the change that were made in the specific directory
+5. ```git add -u``` adds only uddate and deletion (no new files)
+6. ```git add -p``` adds interactivly 
