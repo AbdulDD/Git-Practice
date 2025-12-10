@@ -2,19 +2,22 @@
 
 ## Overview
 
-- This repository is a hands-on practice book for Git. It explains the essential
-	commands, shows concise examples, and includes practical exercises you can run
-	locally.
+- This repository is a complete guide to Git.
 
-Use this guide interactively: try each command in a disposable folder or a test
-repo so you can experiment safely.
+- Introduces you to lot of commands thatyou can practice
+
+- Git has three levels:
+    1. Local Repository
+    2. Staging Area
+    3. Remote Repository
 
 ---
 
-## Commands:
+## Basic Commands:
 
 1. ```git init``` - we run the command in terminal in the directory "A", if we want to convert that directory "A" into a repository. Note it just initializaes the repository so still we eed to add and commit.
 
 2. ```git clone http://repository/username/repo.git``` is used to clone the repository.
 
-3. ```git ```
+## Add commands:
+1. ```git add . ``` adds everything 
