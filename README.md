@@ -7,9 +7,14 @@
 - Introduces you to lot of commands thatyou can practice
 
 - Git has three levels:
-    1. Local Repository
-    2. Staging Area
-    3. Remote Repository
+    1. working directory
+    2. Staging Area (after add)
+    3. Local Repository (after commit)
+    4. Remote Repository
+
+- **Add** is staging the changes/updates in directory.
+- **Commit** is saving the changes,updates,new iles and deletion into local repository.
+- **Tags** are labels for releases/ important commits
 
 ---
 
@@ -38,4 +43,10 @@
 2. ```git commit -am "message"``` commits only tracked and updates, no new files are commited
 3. ```git commit --amend -m "new msg" ``` changes the last message
 4. ```git commit -a``` commits only tracked changes
-5. 
+5. ```git commit --dry-run``` do not commits but only show what is in staging ared ready to be commited
+
+## Tags:
+1. ```git tag <version say V1.0> ``` creates a tag
+2. ```git tag -a <version> -m "First release" ``` cretes a tag with label
+3. ```git push --tags``` pushes tags to the remote repoitory
+4. ```git push origin version ``` pushes spesific tag
