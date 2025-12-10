@@ -32,3 +32,10 @@
 2. ```git status -s``` shows symbolic information about changes
 3. ```git staus -sb``` shows status + branch information
 4. ```git status --ignored``` shows status of ignore files
+
+## Commit commands:
+1. ```git commit -m "message" ``` commits with message
+2. ```git commit -am "message"``` commits only tracked and updates, no new files are commited
+3. ```git commit --amend -m "new msg" ``` changes the last message
+4. ```git commit -a``` commits only tracked changes
+5. 
