@@ -52,4 +52,15 @@
 4. ```git push origin version ``` pushes spesific tag
 
 ## push and pull commands:
-1. ```git push ``` 
+1. ```git push ```
+
+
+
+
+show
+cat
+touch
+grep
+diff
+merge
+which
